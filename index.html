@@ -12,12 +12,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
+
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -35,9 +30,71 @@
                 may be more beneficial to try to mock up something more like
                 what you hope to see in your final projects header (title, score,
                 etc.).
-      -->
 
-      <!-- TODO:
+      -->
+		
+		<header> 
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<a class="navbar-brand" href="#">Mobile Friendly Layout</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#">You are home <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Example 1</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Example Dropdown 1<span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">One more separated link</a></li>
+					  </ul>
+					</li>
+				  </ul>
+
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Example 2</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Example Dropdown 2<span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		
+		</header>
+		
+	<!-- jumbotron -->
+		
+
+			<div class="jumbotron">
+				<center>
+					<h1>Mobile Friendly Layout <span class="glyphicon glyphicon-phone"></span></h1>
+				</center>
+			</div>
+					
+		<!-- TODO:
 
                 Create a mobile friendly gallery layout that displays a set of
                 at least 24 images. Each image should be displayed along with some
@@ -48,8 +105,56 @@
                 You may use any HTML structures you want, and this file has
                 Bootstrap linked in, so you may use the responsive layout and
                 image tools that Bootstrap includes.
-      -->
-
+      	-->
+		<div class="row">
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/1.jpg" class="img-responsive" alt="one of the original programmers for the ENIAC computer" title="Betty Jean Jennings"></div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/10.jpg" class="img-responsive" alt="professor of electrical engineering and computer science at MIT, and a professor of mathematical sciences at the Weizmann Institute of Science, Israel" title="Shafi Goldwasser"></div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/11.jpg" class="img-responsive" alt="member of the faculty at Yale, Boston University, and MIT where she currently serves as the director of the Active-Adaptive Control Laboratory and a senior research scientist in the Department of Mechanical Engineering" title="Anuradha Annaswamy"></div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/12.jpg" class="img-responsive" alt="American computer scientist and United States Navy rear admiral" title="Grace Hopper"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/2.jpg" class="img-responsive" alt="Head of the Department of Computer Science and Engineering; Northwestern University, professor of electrical and computer engineering" title="Valerie E. Taylor"></div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/3.jpg" class="img-responsive" alt="former astronaut and current Director of the Johnson Space Center" title="Ellen Ochoa"></div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/4.jpg" class="img-responsive" alt="first computer programmer" title="Ada Lovelace"></div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/5.jpg" class="img-responsive" alt="American physicist, space scientist, and mathematician who contributed to America's aeronautics and space programs with the early application of digital electronic computers at NASA" title="Katherine Johnson"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/6.jpg" class="img-responsive" alt="one of the six original programmers of the ENIAC, the first general-purpose electronic digital computer" title="Kathleen Antonelli">
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/7.jpg" class="img-responsive" alt="one of the six original programmers of ENIAC, the first general-purpose electronic digital computer" title="Frances Elizabeth Snyder">
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/8.jpg" class="img-responsive" alt="American engineer and the head of DARPA, the United States Defense Advanced Research Projects Agency" title="Arati Prabhakar">
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="classWithPad"><img src="img/deck/9.jpg" class="img-responsive" alt="an American computer scientist" title="Anita Borg">
+				</div>
+			</div>
+		</div>
+	
       <!-- TODO:
 
                 Create a mobile-friendly Footer that includes three columns. The
@@ -74,6 +179,61 @@
                   table with imaginary player names and high scores. The table
                   should have two columns: name and score.
       -->
+
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="classWithPad"><h3>Description</h3>
+					<p>"This page is meant to provide an experimental proof of concept for a mobile-friendly layout that can be used to inform the creation of a card matching game."</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="classWithPad"><h3>Styles</h3>
+						<ul id="menu">
+							<li><a href="#">Style 01</a></li>
+							<li><a href="#">Style 02</a></li>
+							<li><a href="#">Style 03</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="classWithPad"><h3>Scores</h3>
+					<table class="table">
+							<thead>
+							  <tr>
+								<th>Name</th>
+								<th>Scores</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>John</td>
+								<td>5</td>
+							  </tr>
+							  <tr>
+								<td>Mary</td>
+								<td>10</td>	
+							  </tr>
+							  <tr>
+								<td>Joe</td>
+								<td>15</td>
+							  </tr>
+							  <tr>
+								<td>Amanda</td>
+								<td>20</td>
+							  </tr>
+							  <tr>
+								<td>Soumontha</td>
+								<td>25</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+
 
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>

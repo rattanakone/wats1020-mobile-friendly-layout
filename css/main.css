@@ -4,8 +4,21 @@
    Author's custom styles
    ========================================================================== */
 
-
-
+body {
+	background: royalblue;
+}
+.classWithPad { 
+	margin:5px; 
+	padding:5px; 
+}
+#menu {
+    padding: 0;
+}
+#menu li {
+    display: inline;
+	font-size: 30px;
+	text-decoration: underline;
+}
 
 
 
