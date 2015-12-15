@@ -5,7 +5,9 @@
    ========================================================================== */
 
 body {
-	background: royalblue;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 500;
+	background: #F0F1EE;
 }
 .classWithPad { 
 	margin:5px; 
@@ -15,21 +17,77 @@ body {
     padding: 0;
 }
 #menu li {
-    display: inline;
-	font-size: 30px;
-	text-decoration: underline;
+    display: block;
+	font-size: 20px;
 }
 
+#menu li a {
+	color: black;
+}
 
+#border img {
+	border: 3px solid white;
+}
 
+.heading-one {
+	font-size: 85px;
+	text-align: center;
+	color: white;
+	padding: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
 
+.text-muted {
+	color: #333332;
+	line-height: 0.5;
+}
 
+#my-nav {
+	font-size: 15px;
+	border-radius: 0;
+	border: 1px solid #333332;
+	background: #333332;
+	margin-bottom: 0;
+}
 
+#custom-nav li a {
+	color: white;
+}
 
+#custom-nav ul {
+	background: #F0F1EE;
+}
 
+.title {
+	background: #53BBF4; 
+}
 
+.first-row {
+	background: #FF85CB;
+	padding-right: 30px;
+	padding-left: 30px;
+}
 
+.second-row {
+	background: #FF432E;
+	padding-right: 30px;
+	padding-left: 30px;
+}
 
+.third-row {
+	background: #FFAC00;
+	padding-right: 30px;
+	padding-left: 30px;
+}
 
+.fourth-row {
+	background: #B1EB00;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 20px;
+}
 
-
+.table tr {
+	color: black;
+}
