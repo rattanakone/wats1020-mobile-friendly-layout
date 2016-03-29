@@ -30,7 +30,7 @@ body {
 }
 
 .heading-one {
-	font-size: 85px;
+	font-size: 35px;
 	text-align: center;
 	color: white;
 	padding: 25px;
@@ -41,6 +41,7 @@ body {
 .text-muted {
 	color: #333332;
 	line-height: 0.5;
+	font-size: 15px;
 }
 
 #my-nav {
@@ -90,4 +91,22 @@ body {
 
 .table tr {
 	color: black;
+}
+
+
+@media(min-width:768px) {
+  	.heading-one {
+		font-size: 85px;
+		text-align: center;
+		color: white;
+		padding: 25px;
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+
+	.text-muted {
+		color: #333332;
+		line-height: 0.5;
+		font-size: 20px;
+	}
 }
